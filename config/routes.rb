@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :reply, only: [:create, :destroy]
     end
   end
-
+  resources :favorite_listings, only: [:create, :destroy]
   post '/user/:user_id/wishlist', to: 'wishlists#create', as: 'add_to_wishlist'
   get '/user/:user_id/wishlist', to: 'wishlists#show', as: 'wishlist'
   resources :charges

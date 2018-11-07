@@ -1,5 +1,5 @@
 <h2>User Wishlist</h2>
-<%= @user.wishlist.listings.sum %>
+<%= @wishlist.inspect %>
 <div class="row">
   <% @user.wishlist.listings.each do |wishlist_item| %>
     <div class="col-md-3">
