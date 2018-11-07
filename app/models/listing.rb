@@ -1,9 +1,7 @@
 require 'cloudinary'
 
 class Listing < ApplicationRecord
-
   validates :title, :description, :subject, :grade, :price, :image, :resource_type, presence: true
-
   validates :price, numericality: { only_integer: true }
   validates :description, length: { in: 10..1000 }
 
@@ -11,7 +9,6 @@ class Listing < ApplicationRecord
   has_many :replies, dependent: :destroy
   has_one_attached :image
   belongs_to :user
-  has_and_belongs_to_many :wishlists, dependent: :destroy
 
   def image_tag
     cl_image_tag(self.image.key, :width=>730, :crop=>"fit")

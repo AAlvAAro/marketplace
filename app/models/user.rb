@@ -2,7 +2,6 @@ class User < ApplicationRecord
   has_many :listings, dependent: :destroy
   has_many :comments, dependent: :destroy
   has_many :replies, dependent: :destroy
-  has_one :wishlist, dependent: :destroy
   validates :name, presence: true
   mount_uploader :avatar, AvatarUploader
   
