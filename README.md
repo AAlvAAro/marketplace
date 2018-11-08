@@ -31,26 +31,46 @@ Once a user selects and purchases a listing, they would then receive an email wh
 The marketplace utilises Stripe digital payments. The users of the site can also create their own wishlist, which records listings that they are interested in purchasing. 
 ### Screenshots
 ##### Homepage
+
  <img width="1393" alt="screen shot 2018-11-08 at 3 05 11 pm" src="https://user-images.githubusercontent.com/42559562/48229815-dd5a2d00-e3f4-11e8-9d6c-a51765aebcc5.png">
+
 <img width="1392" alt="screen shot 2018-11-08 at 3 05 25 pm" src="https://user-images.githubusercontent.com/42559562/48229826-e814c200-e3f4-11e8-9707-ef0f3db999be.png">
+
 ##### Listings Page
+
 <img width="1381" alt="screen shot 2018-11-08 at 3 06 17 pm" src="https://user-images.githubusercontent.com/42559562/48229846-fa8efb80-e3f4-11e8-8113-0c7c8736bc39.png">
+
 <img width="1388" alt="screen shot 2018-11-08 at 3 06 30 pm" src="https://user-images.githubusercontent.com/42559562/48229859-fd89ec00-e3f4-11e8-8b22-09bca26182b4.png">
+
 ##### Wishlist
+
 <img width="1396" alt="screen shot 2018-11-08 at 3 06 52 pm" src="https://user-images.githubusercontent.com/42559562/48229867-07135400-e3f5-11e8-8192-1c55f1330023.png">
+
 ##### Payment Page 
+
 <img width="1386" alt="screen shot 2018-11-08 at 3 06 40 pm" src="https://user-images.githubusercontent.com/42559562/48230194-eb5c7d80-e3f5-11e8-95d5-571532a18223.png">
+
 ##### Edit Listing Page
+
 <img width="1404" alt="screen shot 2018-11-08 at 3 07 03 pm" src="https://user-images.githubusercontent.com/42559562/48229871-0a0e4480-e3f5-11e8-97b5-015b4b5b3a7e.png">
+
 ##### Edit Profile Page
+
 <img width="1404" alt="screen shot 2018-11-08 at 3 08 30 pm" src="https://user-images.githubusercontent.com/42559562/48229880-0e3a6200-e3f5-11e8-84d2-e9a6cf14f4cc.png">
+
 ##### User Dashboard
+
 <img width="1162" alt="screen shot 2018-11-09 at 8 01 10 am" src="https://user-images.githubusercontent.com/42559562/48230222-07f8b580-e3f6-11e8-8914-0affc0d689c9.png">
+
 ##### Admin Dashboard
+
 <img width="1401" alt="screen shot 2018-11-08 at 3 08 16 pm" src="https://user-images.githubusercontent.com/42559562/48230163-d97ada80-e3f5-11e8-9c01-028a5431b90c.png">
+
 ### Tech stack (e.g. html, css, deployment platform, etc)
+
 The tech stack utilised for TeacherSource includes Ruby on Rails with included bootstrap and Heroku for deployment. 
 ### Instructions on how to setup, configure and use your App.
+
 To run the app on a local browser, the user must complete a bundle install, to allow for gems utilised in the marketplace to be available from a new machine which wishes to run to the marketplace. 
 The .env file will also be needed to access the website locally. Details are below
 Env file
@@ -84,6 +104,7 @@ The aesthetic design of the marketplace at present is reliant on bootstrap frame
 - Cannot delete comment  reply
 - Can add items to their wishlist
 #### Superadmin
+
 - Has access to Admin dashboard
 - Can delete, view and update listings
 - Can delete, view and update comments/questions
@@ -91,15 +112,20 @@ The aesthetic design of the marketplace at present is reliant on bootstrap frame
 - Can add items to their wishlist
 #### Future iterations
 #### Supervisor
+
 -  Can  purchase listings and distribute to other users within their school cohort
 -  Can manage listings form school cohort.
 ### A workflow diagram of the user journey/s.
+
 ![img_0409](https://user-images.githubusercontent.com/42559562/48230689-a6d1e180-e3f7-11e8-88ed-eba07f1fe39f.JPG)
+
 ### Wireframes
 ![img_0410](https://user-images.githubusercontent.com/42559562/48230690-a76a7800-e3f7-11e8-94e8-51e7b07c9dd7.JPG)
 ![img_0411](https://user-images.githubusercontent.com/42559562/48230701-adf8ef80-e3f7-11e8-80ec-9b14d27fc925.JPG)
+
 ### Database Entity Relationship Diagrams
 ![database](https://user-images.githubusercontent.com/42559562/48229925-21e5c880-e3f5-11e8-8f91-268cae27ccf4.png)
+
 # Short Answer Questions
 ### 1/2/3. Identify the problem you’re trying to solve by building this particular marketplace App? Why is it a problem that needs solving?
 The Australian Education system is currently experiencing issues surrounding teacher retention. It is estimated that teachers, both in the primary and secondary, leave the profession within 5 years.
